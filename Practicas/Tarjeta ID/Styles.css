@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('imagenes/background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.borde{
+    width: 340px;
+    height: 490px;
+    background-color: rgba(250, 250, 250, 0.40);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 4, 129);
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+.cabeza{
+    display: flex;
+    width: auto;
+    align-items: center;
+    position: relative;
+    top: -3%;
+
+}
+
+img{
+    height: auto;
+    width: 35%;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+
+}
+
+.img-p{
+    width: 80%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+
+
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    height: 50%;
+}
+
+.valido{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+
+.fecha-absoluta{
+    display: flex;
+    width: 100%;
+    height: 66%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fecha-caja{
+    width: 33%;
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgb(26, 90, 228);
+    margin: 2px;
+}
+
+.fecha{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    
+}
+
+.numero{
+    font-size: 40px;
+    margin: 0;
+    color: white;
+}
+
+
+.pie{
+    position: relative;
+    top: 15px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pie p{
+    font-size: 30px;
+    margin: 6px;
+}

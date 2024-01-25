@@ -1,10 +1,10 @@
-body{
+body {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
 }
 
-.card{
+.card {
     box-sizing: border-box;
     background-color: red;
     width: 300px;
@@ -18,7 +18,7 @@ body{
     border-radius: 5px;
 }
 
-.contenido{
+.contenido {
     background-color: red;
     width: 270px;
     height: 480px;
@@ -29,14 +29,13 @@ body{
     align-items: center;
 }
 
-.cabeza{
+.cabeza {
     display: flex;
     flex-direction: column;
-    
     align-items: flex-end;
 }
 
-.new{
+.new {
     background-color: #fff;
     width: 75px;
     height: 75px;
@@ -44,29 +43,26 @@ body{
     justify-items: center;
     border-radius: 50%;
     transform: rotate(25deg);
-
     position: relative;
     top: 10px;
     right: 3px;
 }
 
-.new p{
+.new p {
     position: relative;
     font-size: 35px;
     margin: 15px 0;
 }
 
-h1{
+h1 {
     background-color: #910000;
     width: 250px;
     text-align: center;
     color: #ffffff;
     margin: 40px 0;
-
 }
 
-
-.cuerpo{
+.cuerpo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +82,6 @@ i {
     margin: 20px 0;
 }
 
-
 .custom-button {
     padding: 10px 20px;
     font-size: 20px;
@@ -97,16 +92,12 @@ i {
     border: none;
     outline: none;
     cursor: pointer;
-
     position: relative;
     top: 30px;
-
-    
 }
 
-.custom-button:hover{
+.custom-button:hover {
     background: linear-gradient(to right, #000000 30%, #ffffff 30%, #ffffff 100%);
-
 }
 
 .custom-button:hover .suscrib {
@@ -117,13 +108,13 @@ i {
     color: #fff;
 }
 
-.suscrib{
+.suscrib {
     position: relative;
     left: 7px;
     color: #fff;
 }
 
-.precio{
+.precio {
     position: relative;
     right: 10px;
     color: #000;
@@ -137,5 +128,4 @@ i {
     position: absolute;
     top: 488px;
     transform: rotate(45deg);
-
 }

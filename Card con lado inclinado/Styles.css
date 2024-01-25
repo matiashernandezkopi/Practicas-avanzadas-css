@@ -2,8 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta la altura del contenedor al 100% del viewport height si lo deseas */
-
+    height: 100vh;
 }
 
 .contenedor {
@@ -13,12 +12,10 @@ body {
     width: 665px; 
     height: 258px;
     border-radius: 20px;
-
 }
   
 .card{
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 1000px;
     height: 258px;
@@ -27,6 +24,7 @@ body {
     border-radius: 20px;
   
 }
+
 img {
     border-radius: 20px;
     width: auto; 
@@ -37,19 +35,17 @@ img {
     position: absolute;
     top: -50px;
     left: 275px;
-    width: 210px; /* Ajusta el ancho según tus necesidades */
-    height: 314px; /* Ajusta la altura según tus necesidades */
-    background-color: #000; /* Color del borde */
+    width: 210px;
+    height: 314px;
+    background-color: #000; 
     border-radius: 20px;
     z-index: -1;
     transform: rotate(35deg); 
     transform-origin: bottom right;
-    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
 }
 
-.informacion{
+.informacion {
     margin-right: 50px;
     width: 20%;
     display: flex;
@@ -58,11 +54,11 @@ img {
     align-items: center;
 }
 
-h1{
+h1 {
     margin-top: 5px;
 }
 
-p{
+p {
     margin: 10px;
     text-align: center;
     margin-left: 0;
@@ -70,7 +66,7 @@ p{
 
 }
 
-button{
+button {
     color: white;
     background-color: rgb(87, 7, 7);
     border: 0cap;
